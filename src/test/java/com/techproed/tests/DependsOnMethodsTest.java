@@ -25,17 +25,20 @@ public class DependsOnMethodsTest {
         public void amazonTest(){
             driver.get("http://amazon.com");
         }
-        @Test (dependsOnMethods = "facebookTest")
+        @Test (dependsOnMethods = "zaraTest")
         public void googleTest(){
             driver.get("http://google.com");
         }
         @Test
-        public void facebookTest(){
-            driver.get("http://facebook.com");
+        public void zaraTest(){
+            driver.get("http://zara.com");
         }
         @AfterClass
         public void tearDown(){
             driver.quit();
         }
+
+        //dependsOnmethods lardan facebook u kaldirmamiza ragmen yinede facebooku neden aciyor? cunku eger dpendonmethods yoksa alfabetik
+    //siraya gore calistirir testleri.
     }
 
