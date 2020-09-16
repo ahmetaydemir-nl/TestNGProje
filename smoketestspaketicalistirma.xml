@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite - smoketests paketi">
+    <test name="Test - smoketests paket testleri">
+        <packages>
+            <package name="com.techproed.utilities"></package>
+            <package name="com.techproed.smoketests"></package>
+
+
+            Soru : <package name="com.techproed.smoketests"></package>
+            yazip RUN ettikten sonra istedgimiz yerleri degil de TESTNG PROJESINI ve
+            icindeki PAGES olan yerleri test ederek oraya geciyor. Istedgiimiz yeri cek etmiyor.
+            Burada sorun nedir?
+
+        </packages>
+    </test>
+</suite>
+
