@@ -1,10 +1,13 @@
-package com.techproed.utilities;
+package com.techproed.excelautomation;
+
 import org.apache.poi.ss.usermodel.*;
 import org.testng.annotations.Test;
+
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.Random;
+
 public class ReadExcel {
+
     @Test
     public void test() throws IOException {
         String dosyaYolu = "src/test/resources/ULKELER.xlsx";
@@ -53,3 +56,4 @@ public class ReadExcel {
         }
     }
 }
+
